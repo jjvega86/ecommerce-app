@@ -3,7 +3,9 @@ import { Product } from '../lib/types';
 import ProductCard from './ProductCard';
 
 const ProductList = async () => {
-    const fetchedData = await fetch("http://localhost:3000/api/products");
+    const fetchedData = await fetch("http://localhost:3000/api/products", {
+        next: { tags: ["products"] }
+    });
     const data = await fetchedData.json();
     const products: Product[] = data.data;
 

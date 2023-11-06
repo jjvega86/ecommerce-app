@@ -2,6 +2,7 @@ import fs from "fs";
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import { Product } from "../../lib/types";
+
 export async function GET(request: Request) {
   const filePath = path.join(process.cwd(), "public", "data.json");
 
@@ -31,7 +32,7 @@ export async function POST(request: NextRequest) {
     };
     currentData.push(newProduct);
     fs.writeFileSync(filePath, JSON.stringify(currentData, null, 2));
-    return Response.json({ status: 201, message: "Task added successfully!" });
+    return Response.json({ status: 201, message: "Product added successfully!" });
   } catch (error) {
     console.error("An error occurred:", error);
 

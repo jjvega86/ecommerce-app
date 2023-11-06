@@ -75,5 +75,12 @@
     "description": "An elegant weapon...",
     "price": 1000,
     "imageUrl": "https://ziasabers.com/wp-content/uploads/Star-Wars-Darth-VaderNeopxiel-Lighstaber-Replica-by-Zia-Sabers-Best-Cosplay-Lightsaber-from-The-Galaxy-Edge-Lightsaber-Collection-for-Adults-7.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Blaster",
+    "description": "A less civilized weapon...",
+    "price": "300",
+    "imageUrl": "https://files.cults3d.com/uploaders/13851496/illustration-file/7023c474-687b-4c62-a0ef-9af97ad73570/1.jpg"
   }
 ]
