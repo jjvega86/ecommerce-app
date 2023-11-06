@@ -29,13 +29,13 @@ const Modal = ({ title, children, id }: Props) => {
                         <h2 className="text-lg font-semibold">{title}</h2>
                         <button
                             onClick={handleClose}
-                            className="text-gray-500 hover:text-gray-700 p-2 focus:outline-none"
+                            className="bg-red-600 hover:bg-red-300 text-white px-4 rounded-md focus:outline-none"
                         >
-                            Close
+                            X
                         </button>
                     </div>
 
-                    <div className="mt-4">{children}</div>
+                    <div className="my-10 p-4">{children}</div>
 
                     <div className="mt-4 flex justify-end">
                         <button

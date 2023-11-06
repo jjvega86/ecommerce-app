@@ -29,7 +29,7 @@ const ProductDetailPage = async ({params} : {params : {id: string}} ) => {
         <div className='flex flex-col mt-8 items-center gap-4 justify-start'>
           <Link href={`/`}>Back to Products</Link>
           <Modal title='Are you sure you want to delete?' id={String(product.id)}>
-            <div>This is some body text</div>
+            <p>Clicking "Delete Product" is permanent and can't be reversed.</p>
           </Modal>
           <Link href={"?modalOpen=yes"}>Delete Product</Link>
         </div>
