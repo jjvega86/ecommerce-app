@@ -3,7 +3,7 @@ import { Product } from '../lib/types'
 
 const ProductCard = ({product} : { product: Product}) => {
   return (
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4">
+    <div className="w-full p-4">
       <div className="bg-white shadow-lg rounded-lg">
         <img src={product.imageUrl} alt={product.name} className="w-full h-64 object-cover object-center" />
         <div className="p-4">

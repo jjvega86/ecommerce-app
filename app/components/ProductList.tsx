@@ -6,9 +6,9 @@ const ProductList = async () => {
     const fetchedData = await fetch("http://localhost:3000/api/products");
     const data = await fetchedData.json();
     const products: Product[] = data.data;
-    
+
     return (
-        <ul>
+        <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
             {products.map(product => <ProductCard key={product.id} product={product} />)}
         </ul>
     )
