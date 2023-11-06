@@ -68,5 +68,12 @@
     "description": "Fast charging cable with universal compatibility.",
     "price": 40,
     "imageUrl": "https://www.pngall.com/wp-content/uploads/10/Phone-Charge-PNG-Pic.png"
+  },
+  {
+    "id": 11,
+    "name": "Lightsaber",
+    "description": "An elegant weapon...",
+    "price": 1000,
+    "imageUrl": "https://ziasabers.com/wp-content/uploads/Star-Wars-Darth-VaderNeopxiel-Lighstaber-Replica-by-Zia-Sabers-Best-Cosplay-Lightsaber-from-The-Galaxy-Edge-Lightsaber-Collection-for-Adults-7.jpg"
   }
 ]
