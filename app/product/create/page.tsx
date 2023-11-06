@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import AddProductForm from '../components/AddProductForm'
+import AddProductForm from './AddProductForm'
 
 const CreateProductPage = () => {
   return (

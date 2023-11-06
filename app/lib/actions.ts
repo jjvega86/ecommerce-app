@@ -31,3 +31,24 @@ export const addProduct = async (data: FormData) => {
     redirect("/")
 
 }
+
+export const deleteProduct = async (id: string) => {
+    await fetch(`http://localhost:3000/api/products/${id}`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json', 
+        },
+      }).then((response) => {
+        if (response.ok) {
+          console.log('Product deleted successfully');
+        } else {
+          console.error('Failed to delete the product');
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+
+      revalidateTag("products");
+      redirect("/")
+}

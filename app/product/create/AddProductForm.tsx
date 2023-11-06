@@ -1,5 +1,5 @@
 import React from 'react'
-import { addProduct } from '../lib/actions'
+import { addProduct } from '../../lib/actions'
 
 const AddProductForm = () => {
   return (

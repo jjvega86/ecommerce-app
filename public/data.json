@@ -1,19 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Sleek Laptop",
-    "description": "A high-performance laptop with a sleek design.",
-    "price": 1200,
-    "imageUrl": "https://www.pngall.com/wp-content/uploads/2016/05/Laptop-PNG.png"
-  },
-  {
-    "id": 2,
-    "name": "Wireless Earbuds",
-    "description": "Noise-cancelling earbuds with a long battery life.",
-    "price": 150,
-    "imageUrl": "https://www.pngall.com/wp-content/uploads/13/Earphone-Bluetooth-PNG.png"
-  },
-  {
     "id": 3,
     "name": "Smartphone Pro",
     "description": "Latest model with a crystal clear camera and fast processor.",
@@ -68,13 +54,6 @@
     "description": "Fast charging cable with universal compatibility.",
     "price": 40,
     "imageUrl": "https://www.pngall.com/wp-content/uploads/10/Phone-Charge-PNG-Pic.png"
-  },
-  {
-    "id": 11,
-    "name": "Lightsaber",
-    "description": "An elegant weapon...",
-    "price": 1000,
-    "imageUrl": "https://ziasabers.com/wp-content/uploads/Star-Wars-Darth-VaderNeopxiel-Lighstaber-Replica-by-Zia-Sabers-Best-Cosplay-Lightsaber-from-The-Galaxy-Edge-Lightsaber-Collection-for-Adults-7.jpg"
   },
   {
     "id": 12,
