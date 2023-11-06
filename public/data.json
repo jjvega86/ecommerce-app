@@ -14,13 +14,6 @@
     "imageUrl": "https://www.pngall.com/wp-content/uploads/11/Office-Chair-PNG-Images-HD.png"
   },
   {
-    "id": 5,
-    "name": "Gaming Console",
-    "description": "Next-gen gaming console with 4K resolution support.",
-    "price": 500,
-    "imageUrl": "https://www.pngall.com/wp-content/uploads/5/PS5-PNG.png"
-  },
-  {
     "id": 6,
     "name": "Bluetooth Speaker",
     "description": "Portable speaker with deep bass and waterproof features.",
@@ -54,12 +47,5 @@
     "description": "Fast charging cable with universal compatibility.",
     "price": 40,
     "imageUrl": "https://www.pngall.com/wp-content/uploads/10/Phone-Charge-PNG-Pic.png"
-  },
-  {
-    "id": 12,
-    "name": "Blaster",
-    "description": "A less civilized weapon...",
-    "price": "300",
-    "imageUrl": "https://files.cults3d.com/uploaders/13851496/illustration-file/7023c474-687b-4c62-a0ef-9af97ad73570/1.jpg"
   }
 ]

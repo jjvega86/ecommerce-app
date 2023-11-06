@@ -1,13 +1,13 @@
 import React from 'react'
 import { Product } from '../../lib/types'
-import { deleteProduct } from '@/app/lib/actions'
 import Link from 'next/link'
-import DeleteButton from './DeleteButton'
+import Modal from '@/app/components/Modal'
 
 const ProductDetailPage = async ({params} : {params : {id: string}} ) => {
   const data = await fetch(`http://localhost:3000/api/products/${params.id}`)
   const deserializedData = await data.json()
   const product : Product = deserializedData.data;
+
 
   return (
     <div className="w-full md:w-3/4 p-4 md:flex">
@@ -28,11 +28,12 @@ const ProductDetailPage = async ({params} : {params : {id: string}} ) => {
         <p className="mt-4">{product.description}</p>
         <div className='flex flex-col mt-8 items-center gap-4 justify-start'>
           <Link href={`/`}>Back to Products</Link>
-          <DeleteButton id={String(product.id)} />
+          <Modal title='Are you sure you want to delete?' id={String(product.id)}>
+            <div>This is some body text</div>
+          </Modal>
+          <Link href={"?modalOpen=yes"}>Delete Product</Link>
         </div>
       </div>
-
-     
     </div>
   )
 }
